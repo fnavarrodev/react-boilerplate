@@ -1,0 +1,130 @@
+//colors
+
+$white: #ffffff;
+$black: #000000;
+$grey: #e5e7eb;
+$bgGrey: #fafafa;
+$darkGrey: #9d9d9c;
+$textGrey: #444444;
+$iconGrey: #706f6f;
+
+// fonts
+
+$font_0: oxygenregular;
+$font_1: oxygenbold;
+
+//url fonts
+
+$url_0: url("../../fonts/Oxygen_Regular/oxygen-regular.eot");
+$url_1: url("../../fonts/Oxygen_Regular/oxygen-regular.eot?#iefix");
+$url_2: url("../../fonts/Oxygen_Regular/oxygen-regular.woff");
+$url_3: url("../../fonts/Oxygen_Regular/oxygen-regular.ttf");
+$url_4: url("../../fonts/Oxygen_Regular/oxygen-regular.svg#oxygenregular");
+
+$url_5: url("../../fonts/Oxygen_Bold/oxygen-bold.eot");
+$url_6: url("../../fonts/Oxygen_Bold/oxygen-bold.eot?#iefix");
+$url_7: url("../../fonts/Oxygen_Bold/oxygen-bold.woff");
+$url_8: url("../../fonts/Oxygen_Bold/oxygen-bold.ttf");
+$url_9: url("../../fonts/Oxygen_Bold/oxygen-bold.svg#oxygenbold");
+
+//Mixins
+//Example: @include flexbox-display-flex;
+//Example: @include flexbox-order(1);
+
+@mixin flexbox-display-flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+@mixin flexbox-display-inline-flex {
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+}
+@mixin flexbox-flex($flex) {
+  -webkit-box-flex: $flex;
+  -moz-box-flex: $flex;
+  -webkit-flex: $flex;
+  -ms-flex: $flex;
+  flex: $flex;
+}
+@mixin flexbox-flex-grow($flexgrow) {
+  -webkit-flex-grow: $flexgrow;
+  -moz-flex-grow: $flexgrow;
+  -o-flex-grow: $flexgrow;
+  -ms-flex: $flexgrow;
+  flex-grow: $flexgrow;
+}
+@mixin flexbox-order($order) {
+  -webkit-box-ordinal-group: $order;
+  -moz-box-ordinal-group: $order;
+  -ms-flex-order: $order;
+  -webkit-order: $order;
+  order: $order;
+}
+@mixin flexbox-align-self($alignself) {
+  -webkit-align-self: $alignself;
+  -ms-flex-item-align: $alignself;
+  align-self: $alignself;
+}
+@mixin flexbox-flex-wrap($flexwrap) {
+  -webkit-flex-wrap: $flexwrap;
+  -moz-flex-wrap: $flexwrap;
+  -o-flex-wrap: $flexwrap;
+  -ms-flex-wrap: none;
+  flex-wrap: $flexwrap;
+}
+@mixin flexbox-flex-flow($flexflow) {
+  -webkit-flex-flow: $flexflow;
+  -moz-flex-flow: $flexflow;
+  -ms-flex-flow: $flexflow;
+  -o-flex-flow: $flexflow;
+  flex-flow: $flexflow;
+}
+@mixin flexbox-align-items($alignitems) {
+   -webkit-box-align: $alignitems;
+   -moz-box-align: $alignitems;
+   -ms-flex-align: $alignitems;
+   -webkit-align-items: $alignitems;
+   align-items: $alignitems;
+}
+@mixin flexbox-justify-content($justifycontent) {
+   @if $justifycontent == 'flex-start' {
+      -webkit-box-pack: $justifycontent;
+     -moz-box-pack: $justifycontent;
+     -ms-flex-pack: start;
+     -webkit-justify-content: $justifycontent;
+     justify-content: $justifycontent;
+   }
+   @if $justifycontent == 'flex-end' {
+      -webkit-box-pack: $justifycontent;
+     -moz-box-pack: $justifycontent;
+     -ms-flex-pack: end;
+     -webkit-justify-content: $justifycontent;
+     justify-content: $justifycontent;
+   }
+   @else {
+      -webkit-box-pack: $justifycontent;
+     -moz-box-pack: $justifycontent;
+     -ms-flex-pack: $justifycontent;
+     -webkit-justify-content: $justifycontent;
+     justify-content: $justifycontent;
+   }
+}
+@mixin flexbox-flex-direction($flexdirection) {
+  -webkit-flex-direction: $flexdirection;
+  -moz-flex-direction: $flexdirection;
+  -ms-flex-direction: $flexdirection;
+  -o-flex-direction: $flexdirection;
+  flex-direction: $flexdirection;
+}
+@mixin flexbox-align-content($aligncontent) {
+   -webkit-align-content: $aligncontent;
+   -moz-align-content: $aligncontent;
+   -ms-flex-line-pack: $aligncontent;
+   align-content: $aligncontent;
+}

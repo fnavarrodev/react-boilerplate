@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Capa_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="59.827px"
+	 height="59.827px" viewBox="0 0 59.827 59.827" enable-background="new 0 0 59.827 59.827" xml:space="preserve">
+<switch>
+	<foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
+		<i:pgfRef  xlink:href="#adobe_illustrator_pgf">
+		</i:pgfRef>
+	</foreignObject>
+	<g i:extraneous="self">
+		<g>
+			<radialGradient id="SVGID_1_" cx="13.2363" cy="0.8887" r="71.8333" gradientUnits="userSpaceOnUse">
+				<stop  offset="0.1487" style="stop-color:#D68EB8"/>
+				<stop  offset="0.2227" style="stop-color:#CE7EAD"/>
+				<stop  offset="0.3667" style="stop-color:#B95693"/>
+				<stop  offset="0.5297" style="stop-color:#A01778"/>
+				<stop  offset="0.5918" style="stop-color:#991873"/>
+				<stop  offset="0.6802" style="stop-color:#851968"/>
+				<stop  offset="0.7559" style="stop-color:#701A5B"/>
+			</radialGradient>
+			<path fill="url(#SVGID_1_)" d="M29.914,59.879C13.393,59.879,0,46.487,0,29.966C0,13.445,13.393,0.053,29.914,0.053
+				c16.52,0,29.913,13.393,29.913,29.914C59.827,46.487,46.434,59.879,29.914,59.879"/>
+			<g>
+				<polyline fill="#FFFFFF" points="16.6,38.069 11.777,38.069 11.777,23.136 7.9,24.658 7.354,20.925 12.322,18.627 16.6,18.627 
+					16.6,38.069 				"/>
+				<path fill="#FFFFFF" d="M45.766,38.032c-2.289,0-4.342-0.553-5.84-1.395l0.551-3.445c1.475,0.789,3.133,1.314,4.895,1.314
+					c1.736,0,2.814-0.736,2.814-2.104l0,0l0,0l0,0l0,0c0-1.527-1.078-2.29-3.867-2.29h-1.078l-0.527-3.209h1.658
+					c2.525,0,3.473-0.816,3.473-2.053l0,0l0,0l0,0l0,0c0-1.131-0.842-1.763-2.553-1.763c-1.631,0-3.209,0.579-4.551,1.473
+					l-0.551-3.366c1.393-0.947,3.42-1.631,5.76-1.631c3.973,0,6.234,1.921,6.234,4.683c0,2.288-1.289,3.446-3.131,4.13l0,0l0,0l0,0
+					l0,0c2.131,0.684,3.42,1.999,3.42,4.34C52.473,36.165,49.608,38.032,45.766,38.032"/>
+				<path fill="#FFFFFF" d="M34.731,23.446H23.732v-2.744l5.373-5.372c1.037-1.061,1.566-1.798,1.566-2.836l0,0l0,0l0,0l0,0
+					c0-1.061-0.736-1.66-2.006-1.66c-1.383,0-2.789,0.623-4.125,1.591l-0.463-3.273c0.199-0.134,0.404-0.262,0.617-0.383
+					c1.219-0.694,2.684-1.162,4.549-1.162c3.206,0,5.186,1.683,5.186,4.473c0,2.121-1.059,3.505-2.973,5.303l-3.114,2.997h5.903
+					L34.731,23.446"/>
+				<path fill="#FFFFFF" d="M33.461,46.336V35.973h-4.467l-6.885,10.58v2.512h7.561v3.262h3.792v-3.262h2.295v-2.729H33.461z
+					 M29.67,46.336h-4.18l4.18-6.473V46.336z"/>
+			</g>
+		</g>
+	</g>
+</switch>
+</svg>

@@ -1,0 +1,52 @@
+@import "variables";
+
+.navBarTop {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: block;
+  margin: 0;
+  .upperNav {
+    position: relative;
+    padding: 15px 20px;
+    width: 100%;
+    height: 70px;
+    background-color: $white;
+    box-shadow: 0 2px 4px 0 $grey;
+    z-index: 0;
+    @include flexbox-flex-flow(row wrap);
+    @include flexbox-flex-wrap(nowrap);
+    @include flexbox-display-flex;
+    > div {
+      position: relative;
+      &:nth-child(1) {
+        padding: 0 20px 0 0;
+        &:after {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 2px;
+          height: 100%;
+          background-color: $darkGrey;
+        }
+      }
+      &:nth-child(2) {
+        @include flexbox-flex(1);
+        margin: 0 15px;
+      }
+      &:nth-child(3) {
+        button {margin: 0 10px 0 0;}
+      }
+    }
+  }
+  .lowerNav {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: $white;
+    z-index: -1;
+  }
+}
