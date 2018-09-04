@@ -1,6 +1,6 @@
 # README #
 
-* react-boilerplate *
+## react-boilerplate ##
 
-yarn install
-yarn start
+* yarn install
+* yarn start
