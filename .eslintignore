@@ -1,0 +1,6 @@
+registerServiceWorker.js
+src/store/configureStore.js
+src/__test__/*
+config/*
+scripts/*
+src/assets/*
